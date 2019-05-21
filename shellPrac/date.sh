@@ -15,7 +15,7 @@ do
     curr=`date -v+"$i"d "+TIME%y-%m-%d"`
     echo $curr
     m=$(($m+1))
-    if [ "$curr" == "$end_date" ]
+    if [ $curr == $end_date ]
     then
         break
     fi
