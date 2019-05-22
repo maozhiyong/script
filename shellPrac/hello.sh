@@ -11,3 +11,9 @@ echo 'end'
 
 paral=`date "+%Y-%m-%d"`
 echo $paral
+
+
+echo "'$#'" $#
+echo "$*" $*
+echo "$$" $$
+echo 
