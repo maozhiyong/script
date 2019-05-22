@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 echo "og"
 [ -f ./file.sh ] && echo "-f"
 [ -x ./file.sh ] && echo "-x"

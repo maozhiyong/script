@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x
 ## 判断变量
 if ["$1" == ""]
 then

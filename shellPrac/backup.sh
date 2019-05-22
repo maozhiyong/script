@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 echo 'hh'
 
 datalog=`date "+DATE%y-%m-%d"`

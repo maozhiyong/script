@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 echo 'hh'
 if [ "$1" == "" ]
 then

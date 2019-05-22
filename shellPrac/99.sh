@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 for i in $(seq 9); 
     do
      for j in $(seq $i);
